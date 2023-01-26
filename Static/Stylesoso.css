@@ -1,0 +1,89 @@
+/* Barra de navegacion */
+
+.navbar {
+  padding: 1rem;
+  background-color: #D6FCEA;
+  font-size: 25px;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  padding: 5px;
+}
+
+.btn-primary {
+  font-size: 1.5rem;
+  margin: 20px;
+  font-weight: bold;
+}
+
+
+/* seccion hero o principal */
+
+.hero {
+  background-color: #024b29;
+  min-height: 450px;
+  text-align: center;
+  color: #18995D;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+
+.imagen-desarrollador {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 10px;
+  float: left;
+}
+.hero-inferior-img {
+  float:right;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: #D6FCEA;
+}
+
+footer{  
+  height: 150px;
+  padding: 1rem;
+  background-color: #D6FCEA;
+  color: #024b29;
+}
+
+.pie-pagina {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.copy{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+/* adaptable responsive */
+
+
+@media screen and (max-width: 760px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700PX) {
+  .hero-inferior-img {
+    max-width: 400px;
+  }
+  
+}
